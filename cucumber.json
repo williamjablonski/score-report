@@ -1,0 +1,398 @@
+[
+  {
+    "uri": "features/MakeALinkContent.feature",
+    "id": "as-an-user-logged,-i-want-to-make-a-link-content",
+    "keyword": "Feature",
+    "name": "As an user logged, I want to make a link content",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "as-an-user-logged,-i-want-to-make-a-link-content;make-a-link-content;;2",
+        "keyword": "Scenario Outline",
+        "name": "Make a link content",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Link",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7587940000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page with a logged user",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22359088000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in add content",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239314000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in add link content",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1775012000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I put the value \"https://www.youtube.com/watch?v=yg_5hXSHbVw\" in link field",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088149000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I Wait for the add button is showed",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6370724000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I put the link description as \"Browser Stack Content\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196178000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in add link",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1204439000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the success link message is showed",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2401420000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7444124000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/MakeATextContent.feature",
+    "id": "as-an-user-logged,-i-want-to-make-a-text-content",
+    "keyword": "Feature",
+    "name": "As an user logged, I want to make a text content",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "as-an-user-logged,-i-want-to-make-a-text-content;make-a-text-content;;2",
+        "keyword": "Scenario Outline",
+        "name": "Make a text content",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Text",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5774719000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page with a logged user",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14932480000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in add content",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601288000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in add text content",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1835103000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I put the value \"Microsoft and LinkedIn Corporation on Monday announced they have entered into a definitive agreement under which Microsoft will acquire LinkedIn for $196.\" in text field",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7744778000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in submit",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2846407000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select the space \"teste\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2793669000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I put the title as \"Microsoft to acquire LinkedIn\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1874909000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I put the description as \"Microsoft Content\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2178339000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in save",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3701209000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the success text message is showed",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1019205000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6531977000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/UserAuthentication.feature",
+    "id": "as-an-user,-i-want-login-with-my-credentials",
+    "keyword": "Feature",
+    "name": "As an user, I want login with my credentials",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "as-an-user,-i-want-login-with-my-credentials;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "name": "Login with valid credentials",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 5
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5295793000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on login page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4310277000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I login with valid credentials",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10456815000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should be redirected to home page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/navigation_steps.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 664696000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6614861000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
